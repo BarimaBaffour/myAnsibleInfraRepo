@@ -6,14 +6,14 @@
    tags: provisioning
 
    vars:
-     keypair: mySep22Key
+     keypair: DEVOPS-KEYS
      instance_type: t2.micro
-     image: ami-0ee23bfc74a881de5
+     image: ami-0e1c5be2aa956338b
      wait: yes
      group: webserver
      count: 1
-     region: us-east-1
-     security_group: ec2-security-group
+     region: eu-west-2
+     security_group: my-jenkins-security-group
    
    tasks:
 
